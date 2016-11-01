@@ -1,0 +1,183 @@
+body {
+	margin: 0px;
+}
+.container {}
+.img_princip {
+	position: relative;
+}
+.post {
+	position: absolute;
+	box-shadow: 0.1px 0.1px 15px black;
+}
+.post_it1 {
+	left: 100px;
+	top: 100px;
+	z-index: 4;
+}
+.post_it2 {
+	left: 150px;
+	top: 190px;
+	z-index: 3;
+	transform: rotate(4deg);
+}
+.post_it3 {
+	left:120px;
+	top: 280px;
+	z-index: 2;
+	transform: rotate(-4deg);
+}
+.post_it4 {
+	left: 140px;
+	top: 370px;
+	z-index: 1;
+	transform: rotate(-6deg);
+}
+.haut {
+	position: absolute;
+	top:0px;
+	left: 50px;
+	text-align: center;
+	width: 210px;
+}
+
+h2,h3,h6 {
+	margin: 0;
+}
+.haut span {
+	font-size: 6px;
+	font-weight: bolder;
+}
+.etiqu {
+	position: absolute;
+	font-family: monfont;
+	font-size: 22px;
+	z-index: 6;
+	color: darkblue;
+	font-weight: bolder;
+}
+#elec {
+	left: 110px;
+	top: 102px;
+	transform: rotate(-6deg);
+}
+#chauf {
+	left: 110px;
+	top: 120px;
+	transform: rotate(-6deg);
+}
+#trans {
+	left: 106px;
+	top: 148px;
+	transform: rotate(6deg);
+}
+#coif {
+	left: 130px;
+	top: 170px;
+	transform: rotate(6deg);
+}
+#pb {
+	left: 155px;
+	top: 205px;
+}
+#cad {
+	left: 170px;
+	top: 228px;
+	transform: rotate(-2deg);
+}
+#dent {
+	left: 170px;
+	top: 250px;
+	transform: rotate(-2deg);
+}
+#vet {
+	left: 130px;
+	top: 295px;
+}
+#rest {
+	left: 125px;
+	top: 315px;
+}
+#eau {
+	left: 170px;
+	top: 335px;
+}
+#cours {
+	left: 160px;
+	top: 355px;
+	transform: rotate(-6deg);
+}
+#pap {
+	left: 150px;
+	top: 385px;
+	transform: rotate(4deg);
+}
+#toil {
+	left: 195px;
+	top: 400px;
+	transform: rotate(4deg);
+}
+#tel {
+	left: 150px;
+	top: 415px;
+}
+#les {
+	left: 190px;
+	top: 430px;
+}
+#pres {
+	left: 170px;
+	top: 445px;
+}
+.bas {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 500px;
+	left:30px;
+	text-align: center;
+	width: 240px;
+}
+
+@font-face {
+    font-family: monfont;
+    src: url(Niagra-Faults.otf);
+}
+@font-face {
+    font-family: radin;
+    src: url(News-of-the-World-regular.ttf);
+}
+
+.bas span:nth-child(1) {
+	font-weight: bolder;
+	font-size: 20px;
+}
+.bas div {
+	font-family: radin;
+	font-size: 90px;
+	font-size-adjust: 1;
+	color: #CC0000;
+	height: 85px;
+}
+.bas span:nth-child(3) {
+	font-size: 0.5em;
+}
+.bas span:nth-child(4) {
+	font-weight: bolder;
+	font-size: 12px;
+
+}
+.bas span:nth-child(6) {
+	font-family: radin;
+	font-size: 13px;
+
+}
+ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	font-size: 13px;
+	font-family: radin;
+	font-weight: normal;
+}
