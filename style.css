@@ -42,6 +42,7 @@ body {
 
 h2,h3,h6 {
 	margin: 0;
+	font-weight: normal;
 }
 .haut span {
 	font-size: 6px;
